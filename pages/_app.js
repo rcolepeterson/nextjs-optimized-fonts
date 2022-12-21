@@ -8,13 +8,25 @@ import localFont from "@next/font/local";
 //   subsets: ["latin"],
 // });
 
-const hsbold = localFont({
-  src: "./fonts/HungerStation-Regular.woff2",
+const hungerstation = localFont({
+  src: [
+    {
+      path: "./fonts/HungerStation-Regular.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HungerStation-Light.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-hungerstation",
 });
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <main className={hsbold.className}>
+    <main className={`${hungerstation.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
   );

@@ -15,6 +15,8 @@ export default function Home() {
       <div>
         <h4>THIS IS MY FONT TEST BOLD</h4>
         <p>THIS IS MY FONT TEST LIGHT</p>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <h1 className="text-3xl  underline">Hello world!</h1>
       </div>
     </>
   );

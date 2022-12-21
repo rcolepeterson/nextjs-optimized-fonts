@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 h4 {
   font-weight: 700;
   font-size: 36px;
