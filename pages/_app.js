@@ -1,12 +1,12 @@
 import "../styles/globals.css";
-import { Roboto } from "@next/font/google";
+//import { Roboto } from "@next/font/google";
 import localFont from "@next/font/local";
 
-const roboto = Roboto({
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-});
+// const roboto = Roboto({
+//   weight: ["400", "700"],
+//   style: ["normal", "italic"],
+//   subsets: ["latin"],
+// });
 
 const hsbold = localFont({
   src: "./fonts/HungerStation-Regular.woff2",
